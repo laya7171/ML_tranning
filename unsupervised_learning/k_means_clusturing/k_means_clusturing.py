@@ -1,4 +1,6 @@
-from utils import euclidean_distance
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from utils.data_operations import euclidean_distance
 import numpy as np
 
 class KMeans():  # Algorithm implementation
