@@ -28,3 +28,6 @@ print(predictions)
 
 acc = np.sum(predictions == y_test) / len(y_test)
 print(acc)
+
+
+model.save("model.h5")  # Save the model
